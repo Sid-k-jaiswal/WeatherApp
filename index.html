@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CloudWatch</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <form id="search_form">
+        <input id="search_input" type="search" placeholder="Enter city name"  required autocomplete="off" />
+        <br />
+        <button id="search_button">search</button>
+    </form>
+
+    <main id="app_container">
+        <div id="location">
+            <p>------</p>
+        </div>
+        <div id="temp">
+            <img id="temp_icon" src="icons/sun.png" alt="clear sky icon" />
+            <p><span id="temp_value">------</span> <span id="temp_unit">&#176c</div></span></p>
+        </div>
+
+        <div id="climate">
+            <p>------</p>
+        </div>
+        <div id="air">
+            <p><span id="wind_speed">------</span> <span id="wind_unit">km/h</div></span></p>
+        </div>
+
+    </main>
+<script src="main.js"></script>
+</body>
+</html>
