@@ -47,7 +47,7 @@ const getWeather=async (city) =>
     }
 };
 
-window.addEventListener("load", ()=>{
+window.addEventListener("load", function(){
     let long;
     let lat;
 
